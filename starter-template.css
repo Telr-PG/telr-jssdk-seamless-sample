@@ -1,7 +1,8 @@
-body {
-  padding-top: 50px;
-}
 .starter-template {
-  padding: 40px 15px;
+  padding: 20px 15px;
   text-align: center;
+}
+footer {
+  text-align: center;
+  padding-bottom: 20px;
 }
