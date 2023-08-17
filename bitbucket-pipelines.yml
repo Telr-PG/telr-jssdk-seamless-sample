@@ -9,4 +9,4 @@ pipelines:
             - git config --global user.email "deploy@telr.com"
             - git config --global user.name "deploy"
             - git remote add github https://github.com/Telr-PG/telr-jssdk-seamless-sample
-            - git push https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/Telr-PG/telr-jssdk-seamless-sample
+            - git push https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/Telr-PG/telr-jssdk-seamless-sample -f
