@@ -4,12 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
     <title>Telr JS SDK Integration Sample</title>
-    <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="starter-template.css">
   </head>
@@ -197,9 +195,6 @@
         </div>
     </div><!-- /.container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://secure.telr.com/jssdk/v2/telr_sdk.js"></script>
     
@@ -216,9 +211,10 @@
             test_mode: 1,
             /* appearance object enables customization of the iframe look based on the property values */
             appearance: {
-                labels: 1,  // 1->show labels ,0->hide labels
-                logos: 1,   // 1->show logos, 0->hide logos
-                borders: 1  // 1->show borders , 0->hide borders
+                labels: 1,
+                logos: 1,
+                borders: 1,
+                dropdowns: 0
             },
             callback: onTokenReceive
         };
